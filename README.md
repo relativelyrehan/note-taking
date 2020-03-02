@@ -1,3 +1,3 @@
 # note-taking
 A minimalistic note taking app.
-![alt text]()
+![alt text](screenshot.png)
