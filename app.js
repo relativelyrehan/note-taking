@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-var notes = ["This is a anonymous message/thought sharing web app", "you can share your thoughts or read others'. Just small thoughts 200 words"];
+var notes = ["This is a anonymous message/thought sharing web app", "you can share your thoughts or read others'. Just small thoughts 200 words", "feel free to add your thoughts, random little thoughts", "whoever reading this, have a nice day!!!"];
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
