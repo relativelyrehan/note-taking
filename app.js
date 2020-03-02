@@ -14,7 +14,10 @@ app.get('/', function(req, res){
   var today = new Date();
   var options = { weekday: 'long', month: 'long', day: 'numeric' };
   var day = today.toLocaleDateString("en-US", options);
+
+
   res.render('home', {notes: notes, day: day});
+  // console.log(req.body);
 });
 
 app.post('/', function(req, res){
